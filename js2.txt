@@ -50,3 +50,47 @@ const fruits = ["apple", "peach", "pear", "banana"];
 // Change code below this line
 const fruitsArrayLength = fruits.length
 #8
+function getExtremeElements(array) {
+  // Change code below this line
+  
+const firstElement = array[0];
+const lastElement = array[array.length -1];
+const NewArray = [firstElement, lastElement]
+  // Change code above this line
+  return NewArray
+}
+#9
+
+
+
+
+
+
+#10
+function splitMessage(message, delimeter) {
+  // Change code below this line
+  let words = message.split(delimeter);
+  // Change code above this line
+  return words;
+}
+#11
+function calculateEngravingPrice(message, pricePerWord) {
+   // Change code below this line
+
+const array = message.split(' ');
+  const result = array.length;
+message = pricePerWord * result;
+return message;
+   // Change code above this line
+}
+#12
+function makeStringFromArray(array, delimeter) {
+  let string;
+  // Change code below this line
+string = array.join(delimeter);
+
+
+  // Change code above this line
+  return string;
+}
+#13
