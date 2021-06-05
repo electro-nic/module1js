@@ -150,3 +150,36 @@ for (let i = 0;i < fruits.length; i += 1) { // Change this line
   console.log(fruit);
 }
 #20
+function calculateTotalPrice(order) {
+  let total = 0;
+  // Change code below this line
+for(var i = 0; i < order.length; i++){
+    total += order[i];
+    }
+  // Change code above this line
+  return total;
+}
+#21
+function findLongestWord(string) {
+  // Change code below this line
+let strSplit = string.split(' ');
+let longestWord = ' ';
+  for(let i=0; i < strSplit.length; i++){
+    if(strSplit[i].length > longestWord.length) {
+      longestWord = strSplit[i];
+    }
+  }
+return longestWord;
+  // Change code above this line
+}
+#22
+function createArrayOfNumbers(min, max) {
+  const numbers = [];
+  // Change code below this line
+ for (let i = min; i <= max; i ++) {  
+numbers.push(i);
+ }
+  // Change code above this line
+  return numbers;
+}
+#23
