@@ -183,3 +183,20 @@ numbers.push(i);
   return numbers;
 }
 #23
+function filterArray(numbers, value) {
+   // Change code below this line
+let result = [];
+  for (let i =0; i < numbers.length; i+=1){
+    if(numbers [i] > value){
+    result.push(numbers[i]);
+    }
+  }
+return result;
+  // Change code above this line
+}
+#24
+function checkFruit(fruit) {
+  const fruits = ["apple", "plum", "pear", "orange"]
+   return fruits.includes(fruit); // Change this line
+}
+#25
