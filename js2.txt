@@ -94,3 +94,36 @@ string = array.join(delimeter);
   return string;
 }
 #13
+function slugify(title){
+const normalizedTitle = title.toLowerCase();
+console.log(normalizedTitle);
+const words = normalizedTitle.split(' ');
+console.log(words);
+const slug = words.join('-');
+console.log(slug);
+return slug
+}
+#14
+const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
+
+// Change code below this line
+const firstTwoEls = fruits.slice([0],[2]);
+const nonExtremeEls = fruits.slice([1],[4]);
+const lastThreeEls = fruits.slice([2]);
+#15
+const oldClients = ['Mango', 'Ajax', 'Poly', 'Kiwi'];
+const newClients = ['Peach', 'Houston'];
+
+const allClients = oldClients.concat(newClients);
+#16
+function makeArray(firstArray, secondArray, maxLength) {
+    // Change code below this line
+const array = firstArray.concat(secondArray);
+const makeArray = array.slice([0],[maxLength])
+  
+  
+return makeArray
+
+    // Change code above this line
+  }
+#17
