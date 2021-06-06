@@ -200,3 +200,27 @@ function checkFruit(fruit) {
    return fruits.includes(fruit); // Change this line
 }
 #25
+function getCommonElements(array1, array2) {
+  // Change code below this line
+const uniqueElements = [];
+for (const element of array1){
+if (array2.includes(element)) {
+uniqueElements.push(element);
+}
+}
+ return uniqueElements;
+ // Change code above this line
+}
+#26
+function calculateTotalPrice(order) {
+  let total = 0;
+  // Change code below this line
+
+  for (const orders of order) {
+    total += orders;
+  }
+
+  // Change code above this line
+  return total;
+}
+#27
